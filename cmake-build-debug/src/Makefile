@@ -143,6 +143,33 @@ Progra2_Lab02_Pablo_lib/fast:
 	cd /d C:\Users\pabli\progra2\Progra2_Lab02_Pablo\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Progra2_Lab02_Pablo_lib.dir\build.make src/CMakeFiles/Progra2_Lab02_Pablo_lib.dir/build
 .PHONY : Progra2_Lab02_Pablo_lib/fast
 
+Address.obj: Address.cpp.obj
+.PHONY : Address.obj
+
+# target to build an object file
+Address.cpp.obj:
+	cd /d C:\Users\pabli\progra2\Progra2_Lab02_Pablo\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Progra2_Lab02_Pablo_run.dir\build.make src/CMakeFiles/Progra2_Lab02_Pablo_run.dir/Address.cpp.obj
+	cd /d C:\Users\pabli\progra2\Progra2_Lab02_Pablo\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Progra2_Lab02_Pablo_lib.dir\build.make src/CMakeFiles/Progra2_Lab02_Pablo_lib.dir/Address.cpp.obj
+.PHONY : Address.cpp.obj
+
+Address.i: Address.cpp.i
+.PHONY : Address.i
+
+# target to preprocess a source file
+Address.cpp.i:
+	cd /d C:\Users\pabli\progra2\Progra2_Lab02_Pablo\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Progra2_Lab02_Pablo_run.dir\build.make src/CMakeFiles/Progra2_Lab02_Pablo_run.dir/Address.cpp.i
+	cd /d C:\Users\pabli\progra2\Progra2_Lab02_Pablo\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Progra2_Lab02_Pablo_lib.dir\build.make src/CMakeFiles/Progra2_Lab02_Pablo_lib.dir/Address.cpp.i
+.PHONY : Address.cpp.i
+
+Address.s: Address.cpp.s
+.PHONY : Address.s
+
+# target to generate assembly for a file
+Address.cpp.s:
+	cd /d C:\Users\pabli\progra2\Progra2_Lab02_Pablo\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Progra2_Lab02_Pablo_run.dir\build.make src/CMakeFiles/Progra2_Lab02_Pablo_run.dir/Address.cpp.s
+	cd /d C:\Users\pabli\progra2\Progra2_Lab02_Pablo\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Progra2_Lab02_Pablo_lib.dir\build.make src/CMakeFiles/Progra2_Lab02_Pablo_lib.dir/Address.cpp.s
+.PHONY : Address.cpp.s
+
 Employee.obj: Employee.cpp.obj
 .PHONY : Employee.obj
 
@@ -234,6 +261,9 @@ help:
 	@echo ... rebuild_cache
 	@echo ... Progra2_Lab02_Pablo_lib
 	@echo ... Progra2_Lab02_Pablo_run
+	@echo ... Address.obj
+	@echo ... Address.i
+	@echo ... Address.s
 	@echo ... Employee.obj
 	@echo ... Employee.i
 	@echo ... Employee.s

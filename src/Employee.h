@@ -11,8 +11,8 @@ private:
     int employeeId;
     int jobId;
     float paymentPerHour;
-    //BankAccount bankAccount;
-    //Address addresList[]*
+    //BankAccount bankAccount; 1.Same with this
+    //Address addresList[]* |1.have to make class Address,2.then create a List (from standard library)
 public:
     Employee() = default;
     Employee(int employeeId, int jobId, float paymentPerHour);
@@ -29,8 +29,9 @@ public:
 
     float getPaymentPerHour() const;
 
-    void setPaymentPerHour(float paymentPerHour);
-//pure virtual
+    void setPaymentPerHour(float paymentPerHour); //pure virtual
+
+    virtual ~Employee() = default;
 };
 
 

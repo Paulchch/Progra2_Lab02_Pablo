@@ -1,2 +1,2 @@
-C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\ar.exe qc libProgra2_Lab02_Pablo_lib.a CMakeFiles/Progra2_Lab02_Pablo_lib.dir/Employee.cpp.obj CMakeFiles/Progra2_Lab02_Pablo_lib.dir/Main.cpp.obj CMakeFiles/Progra2_Lab02_Pablo_lib.dir/Person.cpp.obj
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\ar.exe qc libProgra2_Lab02_Pablo_lib.a CMakeFiles/Progra2_Lab02_Pablo_lib.dir/Address.cpp.obj CMakeFiles/Progra2_Lab02_Pablo_lib.dir/Employee.cpp.obj CMakeFiles/Progra2_Lab02_Pablo_lib.dir/Main.cpp.obj CMakeFiles/Progra2_Lab02_Pablo_lib.dir/Person.cpp.obj
 C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\ranlib.exe libProgra2_Lab02_Pablo_lib.a
