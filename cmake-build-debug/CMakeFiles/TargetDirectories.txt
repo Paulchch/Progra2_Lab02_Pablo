@@ -1,0 +1,6 @@
+C:/Users/pabli/progra2/Progra2_Lab02_Pablo/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/pabli/progra2/Progra2_Lab02_Pablo/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/pabli/progra2/Progra2_Lab02_Pablo/cmake-build-debug/src/CMakeFiles/Progra2_Lab02_Pablo_run.dir
+C:/Users/pabli/progra2/Progra2_Lab02_Pablo/cmake-build-debug/src/CMakeFiles/Progra2_Lab02_Pablo_lib.dir
+C:/Users/pabli/progra2/Progra2_Lab02_Pablo/cmake-build-debug/src/CMakeFiles/edit_cache.dir
+C:/Users/pabli/progra2/Progra2_Lab02_Pablo/cmake-build-debug/src/CMakeFiles/rebuild_cache.dir
