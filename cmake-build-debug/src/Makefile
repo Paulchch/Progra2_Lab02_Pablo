@@ -143,6 +143,33 @@ Progra2_Lab02_Pablo_lib/fast:
 	cd /d C:\Users\pabli\progra2\Progra2_Lab02_Pablo\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Progra2_Lab02_Pablo_lib.dir\build.make src/CMakeFiles/Progra2_Lab02_Pablo_lib.dir/build
 .PHONY : Progra2_Lab02_Pablo_lib/fast
 
+Employee.obj: Employee.cpp.obj
+.PHONY : Employee.obj
+
+# target to build an object file
+Employee.cpp.obj:
+	cd /d C:\Users\pabli\progra2\Progra2_Lab02_Pablo\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Progra2_Lab02_Pablo_run.dir\build.make src/CMakeFiles/Progra2_Lab02_Pablo_run.dir/Employee.cpp.obj
+	cd /d C:\Users\pabli\progra2\Progra2_Lab02_Pablo\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Progra2_Lab02_Pablo_lib.dir\build.make src/CMakeFiles/Progra2_Lab02_Pablo_lib.dir/Employee.cpp.obj
+.PHONY : Employee.cpp.obj
+
+Employee.i: Employee.cpp.i
+.PHONY : Employee.i
+
+# target to preprocess a source file
+Employee.cpp.i:
+	cd /d C:\Users\pabli\progra2\Progra2_Lab02_Pablo\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Progra2_Lab02_Pablo_run.dir\build.make src/CMakeFiles/Progra2_Lab02_Pablo_run.dir/Employee.cpp.i
+	cd /d C:\Users\pabli\progra2\Progra2_Lab02_Pablo\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Progra2_Lab02_Pablo_lib.dir\build.make src/CMakeFiles/Progra2_Lab02_Pablo_lib.dir/Employee.cpp.i
+.PHONY : Employee.cpp.i
+
+Employee.s: Employee.cpp.s
+.PHONY : Employee.s
+
+# target to generate assembly for a file
+Employee.cpp.s:
+	cd /d C:\Users\pabli\progra2\Progra2_Lab02_Pablo\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Progra2_Lab02_Pablo_run.dir\build.make src/CMakeFiles/Progra2_Lab02_Pablo_run.dir/Employee.cpp.s
+	cd /d C:\Users\pabli\progra2\Progra2_Lab02_Pablo\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Progra2_Lab02_Pablo_lib.dir\build.make src/CMakeFiles/Progra2_Lab02_Pablo_lib.dir/Employee.cpp.s
+.PHONY : Employee.cpp.s
+
 Main.obj: Main.cpp.obj
 .PHONY : Main.obj
 
@@ -170,6 +197,33 @@ Main.cpp.s:
 	cd /d C:\Users\pabli\progra2\Progra2_Lab02_Pablo\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Progra2_Lab02_Pablo_lib.dir\build.make src/CMakeFiles/Progra2_Lab02_Pablo_lib.dir/Main.cpp.s
 .PHONY : Main.cpp.s
 
+Person.obj: Person.cpp.obj
+.PHONY : Person.obj
+
+# target to build an object file
+Person.cpp.obj:
+	cd /d C:\Users\pabli\progra2\Progra2_Lab02_Pablo\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Progra2_Lab02_Pablo_run.dir\build.make src/CMakeFiles/Progra2_Lab02_Pablo_run.dir/Person.cpp.obj
+	cd /d C:\Users\pabli\progra2\Progra2_Lab02_Pablo\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Progra2_Lab02_Pablo_lib.dir\build.make src/CMakeFiles/Progra2_Lab02_Pablo_lib.dir/Person.cpp.obj
+.PHONY : Person.cpp.obj
+
+Person.i: Person.cpp.i
+.PHONY : Person.i
+
+# target to preprocess a source file
+Person.cpp.i:
+	cd /d C:\Users\pabli\progra2\Progra2_Lab02_Pablo\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Progra2_Lab02_Pablo_run.dir\build.make src/CMakeFiles/Progra2_Lab02_Pablo_run.dir/Person.cpp.i
+	cd /d C:\Users\pabli\progra2\Progra2_Lab02_Pablo\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Progra2_Lab02_Pablo_lib.dir\build.make src/CMakeFiles/Progra2_Lab02_Pablo_lib.dir/Person.cpp.i
+.PHONY : Person.cpp.i
+
+Person.s: Person.cpp.s
+.PHONY : Person.s
+
+# target to generate assembly for a file
+Person.cpp.s:
+	cd /d C:\Users\pabli\progra2\Progra2_Lab02_Pablo\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Progra2_Lab02_Pablo_run.dir\build.make src/CMakeFiles/Progra2_Lab02_Pablo_run.dir/Person.cpp.s
+	cd /d C:\Users\pabli\progra2\Progra2_Lab02_Pablo\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Progra2_Lab02_Pablo_lib.dir\build.make src/CMakeFiles/Progra2_Lab02_Pablo_lib.dir/Person.cpp.s
+.PHONY : Person.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -180,9 +234,15 @@ help:
 	@echo ... rebuild_cache
 	@echo ... Progra2_Lab02_Pablo_lib
 	@echo ... Progra2_Lab02_Pablo_run
+	@echo ... Employee.obj
+	@echo ... Employee.i
+	@echo ... Employee.s
 	@echo ... Main.obj
 	@echo ... Main.i
 	@echo ... Main.s
+	@echo ... Person.obj
+	@echo ... Person.i
+	@echo ... Person.s
 .PHONY : help
 
 

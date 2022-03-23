@@ -126,7 +126,23 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/pabli/progra2/Progra2_Lab02_Pablo/src/Employee.cpp">
+			<Option target="Progra2_Lab02_Pablo_run"/>
+			<Option target="Progra2_Lab02_Pablo_lib"/>
+		</Unit>
+		<Unit filename="C:/Users/pabli/progra2/Progra2_Lab02_Pablo/src/Employee.h">
+			<Option target="Progra2_Lab02_Pablo_run"/>
+			<Option target="Progra2_Lab02_Pablo_lib"/>
+		</Unit>
 		<Unit filename="C:/Users/pabli/progra2/Progra2_Lab02_Pablo/src/Main.cpp">
+			<Option target="Progra2_Lab02_Pablo_run"/>
+			<Option target="Progra2_Lab02_Pablo_lib"/>
+		</Unit>
+		<Unit filename="C:/Users/pabli/progra2/Progra2_Lab02_Pablo/src/Person.cpp">
+			<Option target="Progra2_Lab02_Pablo_run"/>
+			<Option target="Progra2_Lab02_Pablo_lib"/>
+		</Unit>
+		<Unit filename="C:/Users/pabli/progra2/Progra2_Lab02_Pablo/src/Person.h">
 			<Option target="Progra2_Lab02_Pablo_run"/>
 			<Option target="Progra2_Lab02_Pablo_lib"/>
 		</Unit>

@@ -65,10 +65,24 @@ include src/CMakeFiles/Progra2_Lab02_Pablo_run.dir/progress.make
 # Include the compile flags for this target's objects.
 include src/CMakeFiles/Progra2_Lab02_Pablo_run.dir/flags.make
 
+src/CMakeFiles/Progra2_Lab02_Pablo_run.dir/Employee.cpp.obj: src/CMakeFiles/Progra2_Lab02_Pablo_run.dir/flags.make
+src/CMakeFiles/Progra2_Lab02_Pablo_run.dir/Employee.cpp.obj: src/CMakeFiles/Progra2_Lab02_Pablo_run.dir/includes_CXX.rsp
+src/CMakeFiles/Progra2_Lab02_Pablo_run.dir/Employee.cpp.obj: ../src/Employee.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\pabli\progra2\Progra2_Lab02_Pablo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/Progra2_Lab02_Pablo_run.dir/Employee.cpp.obj"
+	cd /d C:\Users\pabli\progra2\Progra2_Lab02_Pablo\cmake-build-debug\src && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Progra2_Lab02_Pablo_run.dir\Employee.cpp.obj -c C:\Users\pabli\progra2\Progra2_Lab02_Pablo\src\Employee.cpp
+
+src/CMakeFiles/Progra2_Lab02_Pablo_run.dir/Employee.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Progra2_Lab02_Pablo_run.dir/Employee.cpp.i"
+	cd /d C:\Users\pabli\progra2\Progra2_Lab02_Pablo\cmake-build-debug\src && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\pabli\progra2\Progra2_Lab02_Pablo\src\Employee.cpp > CMakeFiles\Progra2_Lab02_Pablo_run.dir\Employee.cpp.i
+
+src/CMakeFiles/Progra2_Lab02_Pablo_run.dir/Employee.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Progra2_Lab02_Pablo_run.dir/Employee.cpp.s"
+	cd /d C:\Users\pabli\progra2\Progra2_Lab02_Pablo\cmake-build-debug\src && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\pabli\progra2\Progra2_Lab02_Pablo\src\Employee.cpp -o CMakeFiles\Progra2_Lab02_Pablo_run.dir\Employee.cpp.s
+
 src/CMakeFiles/Progra2_Lab02_Pablo_run.dir/Main.cpp.obj: src/CMakeFiles/Progra2_Lab02_Pablo_run.dir/flags.make
 src/CMakeFiles/Progra2_Lab02_Pablo_run.dir/Main.cpp.obj: src/CMakeFiles/Progra2_Lab02_Pablo_run.dir/includes_CXX.rsp
 src/CMakeFiles/Progra2_Lab02_Pablo_run.dir/Main.cpp.obj: ../src/Main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\pabli\progra2\Progra2_Lab02_Pablo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/Progra2_Lab02_Pablo_run.dir/Main.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\pabli\progra2\Progra2_Lab02_Pablo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/Progra2_Lab02_Pablo_run.dir/Main.cpp.obj"
 	cd /d C:\Users\pabli\progra2\Progra2_Lab02_Pablo\cmake-build-debug\src && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Progra2_Lab02_Pablo_run.dir\Main.cpp.obj -c C:\Users\pabli\progra2\Progra2_Lab02_Pablo\src\Main.cpp
 
 src/CMakeFiles/Progra2_Lab02_Pablo_run.dir/Main.cpp.i: cmake_force
@@ -79,19 +93,37 @@ src/CMakeFiles/Progra2_Lab02_Pablo_run.dir/Main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Progra2_Lab02_Pablo_run.dir/Main.cpp.s"
 	cd /d C:\Users\pabli\progra2\Progra2_Lab02_Pablo\cmake-build-debug\src && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\pabli\progra2\Progra2_Lab02_Pablo\src\Main.cpp -o CMakeFiles\Progra2_Lab02_Pablo_run.dir\Main.cpp.s
 
+src/CMakeFiles/Progra2_Lab02_Pablo_run.dir/Person.cpp.obj: src/CMakeFiles/Progra2_Lab02_Pablo_run.dir/flags.make
+src/CMakeFiles/Progra2_Lab02_Pablo_run.dir/Person.cpp.obj: src/CMakeFiles/Progra2_Lab02_Pablo_run.dir/includes_CXX.rsp
+src/CMakeFiles/Progra2_Lab02_Pablo_run.dir/Person.cpp.obj: ../src/Person.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\pabli\progra2\Progra2_Lab02_Pablo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/Progra2_Lab02_Pablo_run.dir/Person.cpp.obj"
+	cd /d C:\Users\pabli\progra2\Progra2_Lab02_Pablo\cmake-build-debug\src && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Progra2_Lab02_Pablo_run.dir\Person.cpp.obj -c C:\Users\pabli\progra2\Progra2_Lab02_Pablo\src\Person.cpp
+
+src/CMakeFiles/Progra2_Lab02_Pablo_run.dir/Person.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Progra2_Lab02_Pablo_run.dir/Person.cpp.i"
+	cd /d C:\Users\pabli\progra2\Progra2_Lab02_Pablo\cmake-build-debug\src && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\pabli\progra2\Progra2_Lab02_Pablo\src\Person.cpp > CMakeFiles\Progra2_Lab02_Pablo_run.dir\Person.cpp.i
+
+src/CMakeFiles/Progra2_Lab02_Pablo_run.dir/Person.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Progra2_Lab02_Pablo_run.dir/Person.cpp.s"
+	cd /d C:\Users\pabli\progra2\Progra2_Lab02_Pablo\cmake-build-debug\src && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\pabli\progra2\Progra2_Lab02_Pablo\src\Person.cpp -o CMakeFiles\Progra2_Lab02_Pablo_run.dir\Person.cpp.s
+
 # Object files for target Progra2_Lab02_Pablo_run
 Progra2_Lab02_Pablo_run_OBJECTS = \
-"CMakeFiles/Progra2_Lab02_Pablo_run.dir/Main.cpp.obj"
+"CMakeFiles/Progra2_Lab02_Pablo_run.dir/Employee.cpp.obj" \
+"CMakeFiles/Progra2_Lab02_Pablo_run.dir/Main.cpp.obj" \
+"CMakeFiles/Progra2_Lab02_Pablo_run.dir/Person.cpp.obj"
 
 # External object files for target Progra2_Lab02_Pablo_run
 Progra2_Lab02_Pablo_run_EXTERNAL_OBJECTS =
 
+src/Progra2_Lab02_Pablo_run.exe: src/CMakeFiles/Progra2_Lab02_Pablo_run.dir/Employee.cpp.obj
 src/Progra2_Lab02_Pablo_run.exe: src/CMakeFiles/Progra2_Lab02_Pablo_run.dir/Main.cpp.obj
+src/Progra2_Lab02_Pablo_run.exe: src/CMakeFiles/Progra2_Lab02_Pablo_run.dir/Person.cpp.obj
 src/Progra2_Lab02_Pablo_run.exe: src/CMakeFiles/Progra2_Lab02_Pablo_run.dir/build.make
 src/Progra2_Lab02_Pablo_run.exe: src/CMakeFiles/Progra2_Lab02_Pablo_run.dir/linklibs.rsp
 src/Progra2_Lab02_Pablo_run.exe: src/CMakeFiles/Progra2_Lab02_Pablo_run.dir/objects1.rsp
 src/Progra2_Lab02_Pablo_run.exe: src/CMakeFiles/Progra2_Lab02_Pablo_run.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\pabli\progra2\Progra2_Lab02_Pablo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Progra2_Lab02_Pablo_run.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\pabli\progra2\Progra2_Lab02_Pablo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable Progra2_Lab02_Pablo_run.exe"
 	cd /d C:\Users\pabli\progra2\Progra2_Lab02_Pablo\cmake-build-debug\src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Progra2_Lab02_Pablo_run.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
