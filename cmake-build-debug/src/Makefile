@@ -170,6 +170,33 @@ Address.cpp.s:
 	cd /d C:\Users\pabli\progra2\Progra2_Lab02_Pablo\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Progra2_Lab02_Pablo_lib.dir\build.make src/CMakeFiles/Progra2_Lab02_Pablo_lib.dir/Address.cpp.s
 .PHONY : Address.cpp.s
 
+BankAccount.obj: BankAccount.cpp.obj
+.PHONY : BankAccount.obj
+
+# target to build an object file
+BankAccount.cpp.obj:
+	cd /d C:\Users\pabli\progra2\Progra2_Lab02_Pablo\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Progra2_Lab02_Pablo_run.dir\build.make src/CMakeFiles/Progra2_Lab02_Pablo_run.dir/BankAccount.cpp.obj
+	cd /d C:\Users\pabli\progra2\Progra2_Lab02_Pablo\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Progra2_Lab02_Pablo_lib.dir\build.make src/CMakeFiles/Progra2_Lab02_Pablo_lib.dir/BankAccount.cpp.obj
+.PHONY : BankAccount.cpp.obj
+
+BankAccount.i: BankAccount.cpp.i
+.PHONY : BankAccount.i
+
+# target to preprocess a source file
+BankAccount.cpp.i:
+	cd /d C:\Users\pabli\progra2\Progra2_Lab02_Pablo\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Progra2_Lab02_Pablo_run.dir\build.make src/CMakeFiles/Progra2_Lab02_Pablo_run.dir/BankAccount.cpp.i
+	cd /d C:\Users\pabli\progra2\Progra2_Lab02_Pablo\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Progra2_Lab02_Pablo_lib.dir\build.make src/CMakeFiles/Progra2_Lab02_Pablo_lib.dir/BankAccount.cpp.i
+.PHONY : BankAccount.cpp.i
+
+BankAccount.s: BankAccount.cpp.s
+.PHONY : BankAccount.s
+
+# target to generate assembly for a file
+BankAccount.cpp.s:
+	cd /d C:\Users\pabli\progra2\Progra2_Lab02_Pablo\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Progra2_Lab02_Pablo_run.dir\build.make src/CMakeFiles/Progra2_Lab02_Pablo_run.dir/BankAccount.cpp.s
+	cd /d C:\Users\pabli\progra2\Progra2_Lab02_Pablo\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Progra2_Lab02_Pablo_lib.dir\build.make src/CMakeFiles/Progra2_Lab02_Pablo_lib.dir/BankAccount.cpp.s
+.PHONY : BankAccount.cpp.s
+
 Employee.obj: Employee.cpp.obj
 .PHONY : Employee.obj
 
@@ -264,6 +291,9 @@ help:
 	@echo ... Address.obj
 	@echo ... Address.i
 	@echo ... Address.s
+	@echo ... BankAccount.obj
+	@echo ... BankAccount.i
+	@echo ... BankAccount.s
 	@echo ... Employee.obj
 	@echo ... Employee.i
 	@echo ... Employee.s

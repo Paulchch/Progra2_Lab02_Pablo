@@ -4,21 +4,23 @@
 
 #ifndef PROGRA2_LAB02_PABLO_EMPLOYEE_H
 #define PROGRA2_LAB02_PABLO_EMPLOYEE_H
+#include<vector>
 #include"Person.h"
 #include "Address.h"
+#include "BankAccount.h"
 
 class Employee : public Person {
 private:
     int employeeId;
     int jobId;
     float paymentPerHour;
-    //BankAccount bankAccount; 1.Same with this
-    //Address addresList[]* |vector(standad_library)
+    BankAccount* bankAccount; //composicion(si se borra)-->se hizo puntero para poder borrarlo
+    vector<Address*> addressList;//agregacion(no se borra)
 public:
     Employee() = default;
     Employee(int employeeId, int jobId, float paymentPerHour);
 
-    virtual float calculateSalary() = 0;
+    virtual float calculateSalary() = 0; //metodo virtual puro, se define en clases hijas
 
     int getEmployeeId() const;
 
@@ -32,7 +34,15 @@ public:
 
     void setPaymentPerHour(float paymentPerHour); //pure virtual
 
-    virtual ~Employee() = default;
+    virtual ~Employee();
+
+    BankAccount *getBankAccount() const;
+
+    void setBankAccount(BankAccount *bankAccount);
+
+    const vector<Address *> &getAddressList() const;
+
+    void setAddressList(const vector<Address *> &addressList);
 };
 
 

@@ -30,3 +30,22 @@ float Employee::getPaymentPerHour() const {
 void Employee::setPaymentPerHour(float paymentPerHour) {
     Employee::paymentPerHour = paymentPerHour;
 }
+Employee::~Employee(){
+    delete(bankAccount);
+}
+
+BankAccount *Employee::getBankAccount() const {
+    return bankAccount;
+}
+
+void Employee::setBankAccount(BankAccount *bankAccount) {
+    Employee::bankAccount = bankAccount;
+}
+
+const vector<Address *> &Employee::getAddressList() const {
+    return addressList;
+}
+
+void Employee::setAddressList(const vector<Address *> &addressList) {
+    Employee::addressList = addressList;
+}
