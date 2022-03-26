@@ -5,6 +5,7 @@
 #ifndef PROGRA2_LAB02_PABLO_EMPLOYEE_H
 #define PROGRA2_LAB02_PABLO_EMPLOYEE_H
 #include"Person.h"
+#include "Address.h"
 
 class Employee : public Person {
 private:
@@ -12,7 +13,7 @@ private:
     int jobId;
     float paymentPerHour;
     //BankAccount bankAccount; 1.Same with this
-    //Address addresList[]* |1.have to make class Address,2.then create a List (from standard library)
+    //Address addresList[]* |vector(standad_library)
 public:
     Employee() = default;
     Employee(int employeeId, int jobId, float paymentPerHour);
