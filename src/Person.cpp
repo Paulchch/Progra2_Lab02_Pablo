@@ -22,3 +22,12 @@ void Person::setAge(int age) {
     Person::age = age;
 }
 
+Person::~Person() {
+
+}
+
+ostream &operator<<(ostream &os, const Person &person) {
+    os << "name: " << person.name << " age: " << person.age;
+    return os;
+}
+

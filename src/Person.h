@@ -25,7 +25,9 @@ public:
 
     void setAge(int age);
 
-    //ver si es conveniente declarar un destructor
+    virtual ~Person();//destructor virtual generado
+
+    friend ostream &operator<<(ostream &os, const Person &person);//funcion toString
 };
 
 
