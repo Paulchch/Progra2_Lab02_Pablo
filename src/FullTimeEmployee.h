@@ -9,7 +9,7 @@
 #include"Employee.h"
 #include"IWorkingFromHome.h"
 
-class FullTimeEmployee:public Employee, public IWorkingFromHome {
+class FullTimeEmployee final :public Employee, public IWorkingFromHome {
 private:
     int workingHours;
 public:

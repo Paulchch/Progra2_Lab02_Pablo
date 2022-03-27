@@ -10,7 +10,7 @@
 #include"IWorkingFromOffice.h"
 #include"IWorkingFromHome.h"
 
-class Contractor:public Employee, public IWorkingFromOffice,public IWorkingFromHome{
+class Contractor final :public Employee, public IWorkingFromOffice,public IWorkingFromHome{
 
 private:
     int fixedHours;
