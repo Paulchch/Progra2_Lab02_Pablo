@@ -142,6 +142,14 @@
 			<Option target="Progra2_Lab02_Pablo_run"/>
 			<Option target="Progra2_Lab02_Pablo_lib"/>
 		</Unit>
+		<Unit filename="C:/Users/pabli/progra2/Progra2_Lab02_Pablo/src/Contractor.cpp">
+			<Option target="Progra2_Lab02_Pablo_run"/>
+			<Option target="Progra2_Lab02_Pablo_lib"/>
+		</Unit>
+		<Unit filename="C:/Users/pabli/progra2/Progra2_Lab02_Pablo/src/Contractor.h">
+			<Option target="Progra2_Lab02_Pablo_run"/>
+			<Option target="Progra2_Lab02_Pablo_lib"/>
+		</Unit>
 		<Unit filename="C:/Users/pabli/progra2/Progra2_Lab02_Pablo/src/Employee.cpp">
 			<Option target="Progra2_Lab02_Pablo_run"/>
 			<Option target="Progra2_Lab02_Pablo_lib"/>

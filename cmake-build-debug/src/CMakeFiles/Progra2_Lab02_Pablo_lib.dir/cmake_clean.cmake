@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Progra2_Lab02_Pablo_lib.dir/Address.cpp.obj"
   "CMakeFiles/Progra2_Lab02_Pablo_lib.dir/BankAccount.cpp.obj"
+  "CMakeFiles/Progra2_Lab02_Pablo_lib.dir/Contractor.cpp.obj"
   "CMakeFiles/Progra2_Lab02_Pablo_lib.dir/Employee.cpp.obj"
   "CMakeFiles/Progra2_Lab02_Pablo_lib.dir/Main.cpp.obj"
   "CMakeFiles/Progra2_Lab02_Pablo_lib.dir/Person.cpp.obj"

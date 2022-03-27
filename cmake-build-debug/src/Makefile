@@ -197,6 +197,33 @@ BankAccount.cpp.s:
 	cd /d C:\Users\pabli\progra2\Progra2_Lab02_Pablo\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Progra2_Lab02_Pablo_lib.dir\build.make src/CMakeFiles/Progra2_Lab02_Pablo_lib.dir/BankAccount.cpp.s
 .PHONY : BankAccount.cpp.s
 
+Contractor.obj: Contractor.cpp.obj
+.PHONY : Contractor.obj
+
+# target to build an object file
+Contractor.cpp.obj:
+	cd /d C:\Users\pabli\progra2\Progra2_Lab02_Pablo\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Progra2_Lab02_Pablo_run.dir\build.make src/CMakeFiles/Progra2_Lab02_Pablo_run.dir/Contractor.cpp.obj
+	cd /d C:\Users\pabli\progra2\Progra2_Lab02_Pablo\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Progra2_Lab02_Pablo_lib.dir\build.make src/CMakeFiles/Progra2_Lab02_Pablo_lib.dir/Contractor.cpp.obj
+.PHONY : Contractor.cpp.obj
+
+Contractor.i: Contractor.cpp.i
+.PHONY : Contractor.i
+
+# target to preprocess a source file
+Contractor.cpp.i:
+	cd /d C:\Users\pabli\progra2\Progra2_Lab02_Pablo\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Progra2_Lab02_Pablo_run.dir\build.make src/CMakeFiles/Progra2_Lab02_Pablo_run.dir/Contractor.cpp.i
+	cd /d C:\Users\pabli\progra2\Progra2_Lab02_Pablo\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Progra2_Lab02_Pablo_lib.dir\build.make src/CMakeFiles/Progra2_Lab02_Pablo_lib.dir/Contractor.cpp.i
+.PHONY : Contractor.cpp.i
+
+Contractor.s: Contractor.cpp.s
+.PHONY : Contractor.s
+
+# target to generate assembly for a file
+Contractor.cpp.s:
+	cd /d C:\Users\pabli\progra2\Progra2_Lab02_Pablo\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Progra2_Lab02_Pablo_run.dir\build.make src/CMakeFiles/Progra2_Lab02_Pablo_run.dir/Contractor.cpp.s
+	cd /d C:\Users\pabli\progra2\Progra2_Lab02_Pablo\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Progra2_Lab02_Pablo_lib.dir\build.make src/CMakeFiles/Progra2_Lab02_Pablo_lib.dir/Contractor.cpp.s
+.PHONY : Contractor.cpp.s
+
 Employee.obj: Employee.cpp.obj
 .PHONY : Employee.obj
 
@@ -294,6 +321,9 @@ help:
 	@echo ... BankAccount.obj
 	@echo ... BankAccount.i
 	@echo ... BankAccount.s
+	@echo ... Contractor.obj
+	@echo ... Contractor.i
+	@echo ... Contractor.s
 	@echo ... Employee.obj
 	@echo ... Employee.i
 	@echo ... Employee.s

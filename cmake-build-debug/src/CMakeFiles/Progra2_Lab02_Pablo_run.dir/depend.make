@@ -7,6 +7,13 @@ src/CMakeFiles/Progra2_Lab02_Pablo_run.dir/Address.cpp.obj: \
 src/CMakeFiles/Progra2_Lab02_Pablo_run.dir/BankAccount.cpp.obj: \
  ../src/BankAccount.cpp \
  ../src/BankAccount.h
+src/CMakeFiles/Progra2_Lab02_Pablo_run.dir/Contractor.cpp.obj: \
+ ../src/Address.h \
+ ../src/BankAccount.h \
+ ../src/Contractor.cpp \
+ ../src/Contractor.h \
+ ../src/Employee.h \
+ ../src/Person.h
 src/CMakeFiles/Progra2_Lab02_Pablo_run.dir/Employee.cpp.obj: \
  ../src/Address.h \
  ../src/BankAccount.h \
