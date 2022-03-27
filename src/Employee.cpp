@@ -31,6 +31,7 @@ void Employee::setPaymentPerHour(float paymentPerHour) {
     Employee::paymentPerHour = paymentPerHour;
 }
 Employee::~Employee(){
+
     delete(bankAccount);
 }
 

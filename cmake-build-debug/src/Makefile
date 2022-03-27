@@ -251,6 +251,87 @@ Employee.cpp.s:
 	cd /d C:\Users\pabli\progra2\Progra2_Lab02_Pablo\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Progra2_Lab02_Pablo_lib.dir\build.make src/CMakeFiles/Progra2_Lab02_Pablo_lib.dir/Employee.cpp.s
 .PHONY : Employee.cpp.s
 
+FullTimeEmployee.obj: FullTimeEmployee.cpp.obj
+.PHONY : FullTimeEmployee.obj
+
+# target to build an object file
+FullTimeEmployee.cpp.obj:
+	cd /d C:\Users\pabli\progra2\Progra2_Lab02_Pablo\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Progra2_Lab02_Pablo_run.dir\build.make src/CMakeFiles/Progra2_Lab02_Pablo_run.dir/FullTimeEmployee.cpp.obj
+	cd /d C:\Users\pabli\progra2\Progra2_Lab02_Pablo\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Progra2_Lab02_Pablo_lib.dir\build.make src/CMakeFiles/Progra2_Lab02_Pablo_lib.dir/FullTimeEmployee.cpp.obj
+.PHONY : FullTimeEmployee.cpp.obj
+
+FullTimeEmployee.i: FullTimeEmployee.cpp.i
+.PHONY : FullTimeEmployee.i
+
+# target to preprocess a source file
+FullTimeEmployee.cpp.i:
+	cd /d C:\Users\pabli\progra2\Progra2_Lab02_Pablo\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Progra2_Lab02_Pablo_run.dir\build.make src/CMakeFiles/Progra2_Lab02_Pablo_run.dir/FullTimeEmployee.cpp.i
+	cd /d C:\Users\pabli\progra2\Progra2_Lab02_Pablo\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Progra2_Lab02_Pablo_lib.dir\build.make src/CMakeFiles/Progra2_Lab02_Pablo_lib.dir/FullTimeEmployee.cpp.i
+.PHONY : FullTimeEmployee.cpp.i
+
+FullTimeEmployee.s: FullTimeEmployee.cpp.s
+.PHONY : FullTimeEmployee.s
+
+# target to generate assembly for a file
+FullTimeEmployee.cpp.s:
+	cd /d C:\Users\pabli\progra2\Progra2_Lab02_Pablo\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Progra2_Lab02_Pablo_run.dir\build.make src/CMakeFiles/Progra2_Lab02_Pablo_run.dir/FullTimeEmployee.cpp.s
+	cd /d C:\Users\pabli\progra2\Progra2_Lab02_Pablo\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Progra2_Lab02_Pablo_lib.dir\build.make src/CMakeFiles/Progra2_Lab02_Pablo_lib.dir/FullTimeEmployee.cpp.s
+.PHONY : FullTimeEmployee.cpp.s
+
+IWorkingFromHome.obj: IWorkingFromHome.cpp.obj
+.PHONY : IWorkingFromHome.obj
+
+# target to build an object file
+IWorkingFromHome.cpp.obj:
+	cd /d C:\Users\pabli\progra2\Progra2_Lab02_Pablo\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Progra2_Lab02_Pablo_run.dir\build.make src/CMakeFiles/Progra2_Lab02_Pablo_run.dir/IWorkingFromHome.cpp.obj
+	cd /d C:\Users\pabli\progra2\Progra2_Lab02_Pablo\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Progra2_Lab02_Pablo_lib.dir\build.make src/CMakeFiles/Progra2_Lab02_Pablo_lib.dir/IWorkingFromHome.cpp.obj
+.PHONY : IWorkingFromHome.cpp.obj
+
+IWorkingFromHome.i: IWorkingFromHome.cpp.i
+.PHONY : IWorkingFromHome.i
+
+# target to preprocess a source file
+IWorkingFromHome.cpp.i:
+	cd /d C:\Users\pabli\progra2\Progra2_Lab02_Pablo\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Progra2_Lab02_Pablo_run.dir\build.make src/CMakeFiles/Progra2_Lab02_Pablo_run.dir/IWorkingFromHome.cpp.i
+	cd /d C:\Users\pabli\progra2\Progra2_Lab02_Pablo\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Progra2_Lab02_Pablo_lib.dir\build.make src/CMakeFiles/Progra2_Lab02_Pablo_lib.dir/IWorkingFromHome.cpp.i
+.PHONY : IWorkingFromHome.cpp.i
+
+IWorkingFromHome.s: IWorkingFromHome.cpp.s
+.PHONY : IWorkingFromHome.s
+
+# target to generate assembly for a file
+IWorkingFromHome.cpp.s:
+	cd /d C:\Users\pabli\progra2\Progra2_Lab02_Pablo\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Progra2_Lab02_Pablo_run.dir\build.make src/CMakeFiles/Progra2_Lab02_Pablo_run.dir/IWorkingFromHome.cpp.s
+	cd /d C:\Users\pabli\progra2\Progra2_Lab02_Pablo\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Progra2_Lab02_Pablo_lib.dir\build.make src/CMakeFiles/Progra2_Lab02_Pablo_lib.dir/IWorkingFromHome.cpp.s
+.PHONY : IWorkingFromHome.cpp.s
+
+IWorkingFromOffice.obj: IWorkingFromOffice.cpp.obj
+.PHONY : IWorkingFromOffice.obj
+
+# target to build an object file
+IWorkingFromOffice.cpp.obj:
+	cd /d C:\Users\pabli\progra2\Progra2_Lab02_Pablo\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Progra2_Lab02_Pablo_run.dir\build.make src/CMakeFiles/Progra2_Lab02_Pablo_run.dir/IWorkingFromOffice.cpp.obj
+	cd /d C:\Users\pabli\progra2\Progra2_Lab02_Pablo\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Progra2_Lab02_Pablo_lib.dir\build.make src/CMakeFiles/Progra2_Lab02_Pablo_lib.dir/IWorkingFromOffice.cpp.obj
+.PHONY : IWorkingFromOffice.cpp.obj
+
+IWorkingFromOffice.i: IWorkingFromOffice.cpp.i
+.PHONY : IWorkingFromOffice.i
+
+# target to preprocess a source file
+IWorkingFromOffice.cpp.i:
+	cd /d C:\Users\pabli\progra2\Progra2_Lab02_Pablo\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Progra2_Lab02_Pablo_run.dir\build.make src/CMakeFiles/Progra2_Lab02_Pablo_run.dir/IWorkingFromOffice.cpp.i
+	cd /d C:\Users\pabli\progra2\Progra2_Lab02_Pablo\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Progra2_Lab02_Pablo_lib.dir\build.make src/CMakeFiles/Progra2_Lab02_Pablo_lib.dir/IWorkingFromOffice.cpp.i
+.PHONY : IWorkingFromOffice.cpp.i
+
+IWorkingFromOffice.s: IWorkingFromOffice.cpp.s
+.PHONY : IWorkingFromOffice.s
+
+# target to generate assembly for a file
+IWorkingFromOffice.cpp.s:
+	cd /d C:\Users\pabli\progra2\Progra2_Lab02_Pablo\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Progra2_Lab02_Pablo_run.dir\build.make src/CMakeFiles/Progra2_Lab02_Pablo_run.dir/IWorkingFromOffice.cpp.s
+	cd /d C:\Users\pabli\progra2\Progra2_Lab02_Pablo\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Progra2_Lab02_Pablo_lib.dir\build.make src/CMakeFiles/Progra2_Lab02_Pablo_lib.dir/IWorkingFromOffice.cpp.s
+.PHONY : IWorkingFromOffice.cpp.s
+
 Main.obj: Main.cpp.obj
 .PHONY : Main.obj
 
@@ -327,6 +408,15 @@ help:
 	@echo ... Employee.obj
 	@echo ... Employee.i
 	@echo ... Employee.s
+	@echo ... FullTimeEmployee.obj
+	@echo ... FullTimeEmployee.i
+	@echo ... FullTimeEmployee.s
+	@echo ... IWorkingFromHome.obj
+	@echo ... IWorkingFromHome.i
+	@echo ... IWorkingFromHome.s
+	@echo ... IWorkingFromOffice.obj
+	@echo ... IWorkingFromOffice.i
+	@echo ... IWorkingFromOffice.s
 	@echo ... Main.obj
 	@echo ... Main.i
 	@echo ... Main.s

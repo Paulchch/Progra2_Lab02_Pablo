@@ -12,6 +12,9 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/pabli/progra2/Progra2_Lab02_Pablo/src/BankAccount.cpp" "C:/Users/pabli/progra2/Progra2_Lab02_Pablo/cmake-build-debug/src/CMakeFiles/Progra2_Lab02_Pablo_lib.dir/BankAccount.cpp.obj"
   "C:/Users/pabli/progra2/Progra2_Lab02_Pablo/src/Contractor.cpp" "C:/Users/pabli/progra2/Progra2_Lab02_Pablo/cmake-build-debug/src/CMakeFiles/Progra2_Lab02_Pablo_lib.dir/Contractor.cpp.obj"
   "C:/Users/pabli/progra2/Progra2_Lab02_Pablo/src/Employee.cpp" "C:/Users/pabli/progra2/Progra2_Lab02_Pablo/cmake-build-debug/src/CMakeFiles/Progra2_Lab02_Pablo_lib.dir/Employee.cpp.obj"
+  "C:/Users/pabli/progra2/Progra2_Lab02_Pablo/src/FullTimeEmployee.cpp" "C:/Users/pabli/progra2/Progra2_Lab02_Pablo/cmake-build-debug/src/CMakeFiles/Progra2_Lab02_Pablo_lib.dir/FullTimeEmployee.cpp.obj"
+  "C:/Users/pabli/progra2/Progra2_Lab02_Pablo/src/IWorkingFromHome.cpp" "C:/Users/pabli/progra2/Progra2_Lab02_Pablo/cmake-build-debug/src/CMakeFiles/Progra2_Lab02_Pablo_lib.dir/IWorkingFromHome.cpp.obj"
+  "C:/Users/pabli/progra2/Progra2_Lab02_Pablo/src/IWorkingFromOffice.cpp" "C:/Users/pabli/progra2/Progra2_Lab02_Pablo/cmake-build-debug/src/CMakeFiles/Progra2_Lab02_Pablo_lib.dir/IWorkingFromOffice.cpp.obj"
   "C:/Users/pabli/progra2/Progra2_Lab02_Pablo/src/Main.cpp" "C:/Users/pabli/progra2/Progra2_Lab02_Pablo/cmake-build-debug/src/CMakeFiles/Progra2_Lab02_Pablo_lib.dir/Main.cpp.obj"
   "C:/Users/pabli/progra2/Progra2_Lab02_Pablo/src/Person.cpp" "C:/Users/pabli/progra2/Progra2_Lab02_Pablo/cmake-build-debug/src/CMakeFiles/Progra2_Lab02_Pablo_lib.dir/Person.cpp.obj"
   )
